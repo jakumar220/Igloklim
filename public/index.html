@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Igloklim Kęty Marek Martyniak. Firma zajmująca się chłodnictwem i klimatyzacją." />
+  <meta name="keywords" content="chłodnictwo,klimatyzacja,kęty,oświęcim,serwis,igloklim,marek,martyniak,wentylacja" />
+  <title>Igloklim Kęty Chłodnictwo i Klimatyzacja</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<style>
+  .active{
+      display: block;
+  }    
+</style>
+<body>
+<div class="container mx-auto min-w-full bg-gray-300 p-3 fixed opacity-75">
+  <nav class="flex-row md:justify-between">
+      <div class="flex flex-row justify-between">
+         <p id="hamburgerbtn" class="md:hidden p-1 font-semibold font-heading text-xl text-center cursor-pointer ">
+          <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+          </svg>
+         </p>
+      </div>
+     
+      <ul class="hidden md:flex md:flex-row mx-3 space-x-5  text-black text-xl" id="mobileMenu">
+        <button class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+          <div class = " bg-opacity-75 rounded-md font-semibold ">
+           <a href="#start">Start</a>
+         </div>
+       </button>
+       <button class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+         <div class = " bg-opacity-75 rounded-md font-semibold"> <a href="#uslugi">Usługi</a></div>
+        
+       </button>
+       <button class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
+         <div class = " bg-opacity-75 rounded-md font-semibold"><a href="#kontakt">Kontakt</a></div>
+
+       </button>
+      </ul>
+  </nav>
+</div>
+
+
+<script>
+  let hamburger = document.getElementById('hamburgerbtn');
+
+  let mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', function(){
+      mobileMenu.classList.toggle('active');
+  });
+</script>
+
+<header 
+id = "start"
+  class="flex items-center justify-center h-pic mb-12 bg-fixed bg-center bg-cover " style ="background-image: url(tlo1.jpg)"
+>
+  <div  class="p-5 text-2xl text-gray-700 bg-gray-300 bg-opacity-75 rounded-xl ">
+    <img src="logo.jpg" alt="Logo firmy Igloklim Kęty"style="width:346px;height:175px;">
+  </div>
+</header>
+<div class="max-w-3xl m-auto text-xl md:flex flex-wrap text-center">
+  <p class="mb-4">
+    Witamy na stronie firmy <b>Igloklim Kęty</b> świadczącej usługi w zakresie
+    chłodnictwa i klimatyzacji. Do naszych zadań należy montaż i serwis urządzeń
+    chłodniczych oraz sprzedaż, montaż i serwis klimatyzacji. Naszą ofertę kierujemy do
+    przedsiębiorców i osób prywatnych z województwa małopolskiego i śląskiego.
+  </p>
+  <p class="mb-4">
+    Gwarantujemy Państwu indywidualne podejście do klienta. Doradzamy i
+    wsłuchujemy się w oczekiwania klienta, dzieląc się wiedzą i wieloletnim
+    doświadczeniem. Sprzedajemy sprzęt sprawdzonych producentów w przystępnych
+    cenach.
+  </p>
+  <p class="mb-12">
+    Firma Igloklim może pochwalić się ponad 30 letnim doświadczeniem w
+branży chłodniczej. Najpierw istniał Igloklim jako spółka cywilna. W 2020 roku
+wyłonił się <b>Igloklim Kęty Marek Martyniak</b> - nowa firma ze świeżym
+podejściem do klienta i nastawieniem na innowacyjność.
+  </p>
+  <p class="mb-12">
+Tym, co nas wyróżnia, jest wiedza, doświadczenie i profesjonalizm oraz
+indywidualne podejście do każdego zlecenia. Przywiązujemy dużą uwagę do
+szczegółów. Zajmując się montażem zawsze mamy na uwadze estetykę i jakość
+wykonania. Dzięki temu zamontowany przez nas sprzęt będzie służył Państwu przez
+długi czas.
+  </p>
+</div>
+<section
+id = "uslugi"
+  class=" flex items-center justify-center h-pic m-auto mb-12 bg-fixed bg-center bg-cover" style ="background-image: url(tlo2.jpg)"
+>
+  <div class="p-5 text-2xl text-black font-semibold font-heading bg-gray-300 bg-opacity-75 rounded-xl">
+    Usługi
+  </div>
+</section>
+<div class="max-w-3xl m-auto">
+  <section class="p-4">
+    <div class="flex flex-wrap text-center">
+      <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0">
+        
+        <img src = "aircon2.png" alt="Klimatyzacja"class="w-16 h-16 mx-auto mb-3">
+        <h3 class="text-3xl mb-3 font-semibold font-heading">Klimatyzacja i Wentylacja</h3>
+        <p class="text-gray-400 leading-relaxed"> 
+          <li class="text-xl">Sprzedaż i montaż klimatyzacji</li>
+          <li class="text-xl">Demontaż urządzeń klimatyzacyjnych</li>
+          <li class="text-xl">Czyszczenie i odgrzybianie</li>
+          <li class="text-xl">Serwis urządzeń - naprawy gwarancyjne i pogwarancyjne</li>
+          <li class="text-xl">Kontrole szczelności urządzeń z wpisem do CRO</li>
+          <li class="text-xl">Naprawa i montaż central kilmatyzacyjno-wentylacyjnych</li>
+
+        </p>
+      </div>
+      <div class="md:w-1/2 py-4 md:px-10 mb-4 md:mb-0 md:border-l">
+        <img src = "Aircon.png" alt = "Chłodnictwo"class="w-16 h-16 mx-auto mb-3">
+        <h3 class="text-3xl mb-3 font-semibold font-heading">Chłodnictwo</h3>
+        <p class="text-gray-400 leading-relaxed text-2xl">
+          <li class="text-xl">Sprzedaż, montaż i demontaż urządzeń chłodniczych</li>
+          <li class="text-xl">Naprawy obiegowych schładzaczy wody technologicznej</li>
+          <li class="text-xl">Przegląd i naprawy osuszaczy powietrza</li>
+          <li class="text-xl">Instalacja i naprawy lad i regałów</li>
+          <li class="text-xl">Montaż komór chłodniczych, mroźniczych z płyt warstwowych</li>
+          <li class="text-xl">Kontrole szczelności urządzeń chłodniczych z wpisem do CRO</li>
+          <li class="text-xl">Serwis urządzeń - naprawy gwarancyjne i pogwarancyjne</li>
+
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section
+id = "kontakt"
+  class=" flex items-center justify-center h-pic m-auto mb-12 bg-fixed bg-center bg-cover" style ="background-image: url(tlo3.jpg)"
+>
+  <div class="p-5 text-2xl text-black font-semibold font-heading bg-gray-300 bg-opacity-75 rounded-xl">
+    Kontakt
+  </div>
+</section>
+<div class="max-w-3xl m-auto">
+  <p class="mb-4">
+    <section class="py-12 px-4">
+      <h2 class="text-4xl mb-10 text-center font-semibold font-heading">Skontaktuj się z nami</h2>
+      
+      <div class="flex flex-col lg:flex-row lg:justify-center -mx-4">
+        <div class="px-4 flex items-center">
+          <svg class="inline-block w-6 h-6 mr-3 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+          </svg>
+          <span>Klasztorna 23, 32-650 Kęty</span>
+        </div>
+        <div class="px-4 flex items-center">
+          <svg class="inline-block w-6 h-6 mr-3 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          <span>668 114 339</span>
+        </div>
+        <div class="px-4 flex items-center">
+          <svg class="inline-block w-6 h-6 mr-3 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+          </svg>
+          <span>igloklim.kety@gmail.com</span>
+        </div>
+      </div>
+      
+    </section>
+  </p>
+  <section>
+  <div class="map-responsive">
+    <p class="mb-4 ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.7615300420566!2d19.20354881544011!3d49.88450473586239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471699a66916fa3d%3A0x4c57020780ecb88c!2sIgloklim%20K%C4%99ty!5e0!3m2!1spl!2spl!4v1614519192997!5m2!1spl!2spl" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" style="position: absolute;"></iframe>
+      
+    </p>
+  </div>
+</section>
+</div>
+<footer class="p-4">
+  <div class="flex flex-col lg:flex-row items-center">
+    <div class="w-full lg:w-auto lg:mr-auto text-center lg:text-left">© 2021 Igloklim Kęty</div>
+
+    </footer>
+</body>
+
+</html>
